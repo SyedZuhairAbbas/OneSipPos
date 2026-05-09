@@ -27,10 +27,14 @@ public class DataSeeder {
 
             if(count > 0) return;
 
-            Category category1 = new Category(0 ,"Golden Bites" , "" , 1);
-            Category category2 = new Category(0 ,"Coffee Lovers" , "" , 2);
-            Category category3 = new Category(0 ,"Slush Labs" , "" , 3);
-            Category category4 = new Category(0 ,"Classic Flavours" , "" , 4);
+            Category category1 = new Category(0 ,"Golden Bites" ,
+                    "images/Golden Bites.png" , 1);
+            Category category2 = new Category(0 ,"Coffee Lovers" ,
+                    "images/Coffee Lovers.png" , 2);
+            Category category3 = new Category(0 ,"Slush Labs" ,
+                    "images/Slush Lab.png" , 3);
+            Category category4 = new Category(0 ,"Classic Flavours" ,
+                    "images/Classic Flavours.png" , 4);
             CategoryDAO Cdao = new CategoryDAO();
             Cdao.addCategory(category1);
             Cdao.addCategory(category2);

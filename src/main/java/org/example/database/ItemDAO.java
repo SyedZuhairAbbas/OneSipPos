@@ -43,8 +43,9 @@ public class ItemDAO {
 
     public void addItem(Item item){
         try(Connection conn = connect();
-            PreparedStatement stmt = conn.prepareStatement("Insert into Item " +
-                    "Values (?,?,?,?,?,?,?)")){
+            PreparedStatement stmt = conn.prepareStatement("INSERT INTO Item " +
+                    "(categoryId, name, imagePath, hasSizes, priceSmall, priceLarge, priceSingle) " +
+                    "VALUES (?,?,?,?,?,?,?)")){
 
             stmt.setInt(1 , item.getCategoryId());
             stmt.setString(2 , item.getName());
