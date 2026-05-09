@@ -44,16 +44,15 @@ public class ItemDAO {
     public void addItem(Item item){
         try(Connection conn = connect();
             PreparedStatement stmt = conn.prepareStatement("Insert into Item " +
-                    "Values (?,?,?,?,?,?,?,?)")){
+                    "Values (?,?,?,?,?,?,?)")){
 
-            stmt.setInt(1 , item.getId());
-            stmt.setInt(2 , item.getCategoryId());
-            stmt.setString(3 , item.getName());
-            stmt.setString(4 , item.getImagePath());
-            stmt.setBoolean(5 , item.isHasSizes());
-            stmt.setInt(6 , item.getPriceSmall());
-            stmt.setInt(7 , item.getPriceLarge());
-            stmt.setInt(8 , item.getPriceSingle());
+            stmt.setInt(1 , item.getCategoryId());
+            stmt.setString(2 , item.getName());
+            stmt.setString(3 , item.getImagePath());
+            stmt.setBoolean(4 , item.isHasSizes());
+            stmt.setInt(5 , item.getPriceSmall());
+            stmt.setInt(6 , item.getPriceLarge());
+            stmt.setInt(7 , item.getPriceSingle());
 
             Boolean rs = stmt.execute();
 
