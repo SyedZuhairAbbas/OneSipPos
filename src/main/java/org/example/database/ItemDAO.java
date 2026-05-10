@@ -55,13 +55,13 @@ public class ItemDAO {
             stmt.setInt(6 , item.getPriceLarge());
             stmt.setInt(7 , item.getPriceSingle());
 
-            Boolean rs = stmt.execute();
+            int rows = stmt.executeUpdate();
 
-            if(!rs){
-                System.out.println("insertion Failed");
+            if(rows > 0){
+                System.out.println("Item insertion Succeeded");
+            }else {
+                System.out.println("Item insertion Failed");
             }
-
-            System.out.println("Item inserted");
 
         } catch (SQLException err){
             err.printStackTrace();

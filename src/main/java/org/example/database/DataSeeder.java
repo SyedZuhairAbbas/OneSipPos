@@ -43,76 +43,76 @@ public class DataSeeder {
 
             // GOLDEN BITES SEEDING
             Item Fries1 = new Item(0, 100, 150, 100, true,
-                        "", 1, "Plain Fries");
+                        "images/Golden Bites/Plain Fries.png", 1, "Plain Fries");
             Item Fries2 = new Item(0, 100, 150, 100, true,
-                        "", 1, "Masala Fries");
+                        "images/Golden Bites/Masala Fries.png", 1, "Masala Fries");
             Item Fries3 = new Item(0, 200, 250, 200, true,
-                        "", 1, "Mayo Garlic Fries");
+                        "images/Golden Bites/Mayo Garlic Fries Logo.png", 1, "Mayo Garlic Fries");
             Item Fries4 = new Item(0, 200, 250, 200, true,
-                        "", 1, "Chipotle Fries");
+                        "images/Golden Bites/Chipotle Fries.png", 1, "Chipotle Fries");
             Item Fries5 = new Item(0, 200, 250, 200, true,
-                        "", 1, "Jalapeno Fries");
+                        "images/Golden Bites/jalapeno Fries.png", 1, "Jalapeno Fries");
             Item Fries6 = new Item(0, 200, 250, 200, true,
-                        "", 1, "Dynamite Fries");
+                        "images/Golden Bites/Dynamite Fries.png", 1, "Dynamite Fries");
 
 
             //COFFEE LOVERS SEEDING
             Item Coffee1 = new Item(0, 350, 0, 0, false,
-                    "", 2, "Iced Latte");
+                    "images/Coffee Lovers/Iced Latte.png", 2, "Iced Latte");
             Item Coffee2 = new Item(0, 400, 0, 0, false,
-                    "", 2, "Iced Mocha");
+                    "images/Coffee Lovers/Iced Mocha.png", 2, "Iced Mocha");
             Item Coffee3 = new Item(0, 250, 0, 0, false,
-                    "", 2, "Oreo Frappucino");
+                    "images/Coffee Lovers/Oreo Frapp.png", 2, "Oreo Frappucino");
             Item Coffee4 = new Item(0, 250, 0, 0, false,
-                    "", 2, "Strawberry Frappucino");
+                    "images/Coffee Lovers/Strawberry Frapp.png", 2, "Strawberry Frappucino");
             Item Coffee5 = new Item(0, 250, 0, 0, false,
-                    "", 2, "Caramel Frappucino");
+                    "images/Coffee Lovers/Caramel Frapp.png", 2, "Caramel Frappucino");
 
 
             // SLUSH LAB SEEDING
             Item Slush1 = new Item(0, 150, 0, 0, false,
-                    "", 3, "Blueberry Slush");
+                    "images/Slush Lab/BlueBerry Slush.jpg", 3, "Blueberry Slush");
             Item Slush2 = new Item(0, 150, 0, 0, false,
-                    "", 3, "Strawberry Slush");
+                    "images/Slush Lab/Strawberry Slush.png", 3, "Strawberry Slush");
             Item Slush3 = new Item(0, 150, 0, 0, false,
-                    "", 3, "Mango Slush");
+                    "images/Slush Lab/Mango Slush.png", 3, "Mango Slush");
             Item Slush4 = new Item(0, 150, 0, 0, false,
-                    "", 3, "Orange Slush");
+                    "images/Slush Lab/Orange Slush.png", 3, "Orange Slush");
             Item Slush5 = new Item(0, 150, 0, 0, false,
-                    "", 3, "Green Apple Slush");
+                    "images/Slush Lab/Green Apple Slush.jpg", 3, "Green Apple Slush");
 
 
             // CLASSIC FLAVOURRS SEEDING
             Item Flavour1 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Orange");
+                    "images/Classic Flavours/Classic Flavour Orange.png", 4, "Orange");
             Item Flavour2 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Lemon");
+                    "images/Classic Flavours/Classic Flavour Lemon.png", 4, "Lemon");
             Item Flavour3 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Blueberry");
+                    "images/Classic Flavours/Classic Flavour BlueBerry.png", 4, "Blueberry");
             Item Flavour4 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Green Apple");
+                    "images/Classic Flavours/Classic Flavour Green Apple.png", 4, "Green Apple");
             Item Flavour5 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Peach");
+                    "images/Classic Flavours/Classic Flavour Peach.png", 4, "Peach");
             Item Flavour6 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Lychee");
+                    "images/Classic Flavours/Classic Flavour Lychee.png", 4, "Lychee");
             Item Flavour7 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Blackberry");
+                    "images/Classic Flavours/Classic Flavour BlackBerry.png", 4, "Blackberry");
             Item Flavour8 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Redbull");
+                    "images/Classic Flavours/Classic Flavour RedBull.png", 4, "Redbull");
             Item Flavour9 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Pineapple");
+                    "images/Classic Flavours/Classic Flavour Pineapple.png", 4, "Pineapple");
             Item Flavour10 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Falsa");
+                    "images/Classic Flavours/Classic Flavour BlueBerry.png", 4, "Falsa");
             Item Flavour11 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Strawberry");
+                    "images/Classic Flavours/Classic Flavour BlueBerry.png", 4, "Strawberry");
             Item Flavour12 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Mango");
+                    "images/Classic Flavours/Classic Flavour BlueBerry.png", 4, "Mango");
             Item Flavour13 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Bubble Gum");
+                    "images/Classic Flavours/Classic Flavour BlueBerry.png", 4, "Bubble Gum");
             Item Flavour14 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Pomegranate");
+                    "images/Classic Flavours/Classic Flavour BlueBerry.png", 4, "Pomegranate");
             Item Flavour15 = new Item(0, 0, 110, 90, true,
-                    "", 4, "Golden Apple");
+                    "images/Classic Flavours/Classic Flavour BlueBerry.png", 4, "Golden Apple");
 
             ItemDAO Idao = new ItemDAO();
 

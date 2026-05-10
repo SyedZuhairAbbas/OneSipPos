@@ -45,13 +45,13 @@ public class CategoryDAO{
             stmt.setString(2, category.getIconPath());
             stmt.setInt(3, category.getSortOrder());
 
-            boolean rs = stmt.execute();
+            int rows = stmt.executeUpdate();
 
-            if (!rs) {
-                System.out.println("Category add failed");
+            if (rows > 0) {
+                System.out.println("Category added Successfully");
+            }else {
+                System.out.println("category add Failed");
             }
-
-            System.out.println("category added");
 
         } catch (SQLException err){
             err.printStackTrace();
